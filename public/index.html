@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>V , I VS T,W graph</title>
+</head>
+
+<body>
+    <div id="controls">
+        <form id="form" action="/" method="post">
+            <div class="wave-group">
+                <input name="Resistance_R" required="" type="text" class="input">
+                <span class="bar"></span>
+                <label class="label">
+                    <span class="label-char" style="--index: 0">R</span>
+                </label>
+            </div>
+            <div class="wave-group">
+                <input name="Inductive_reactance_XL" required="" type="text" class="input">
+                <span class="bar"></span>
+                <label class="label">
+                    <span class="label-char" style="--index: 0">X</span>
+                    <span class="label-char" style="--index: 1">L</span>
+                </label>
+            </div>
+            <div class="wave-group">
+                <input name="Capacitive_reactance_XC" required="" type="text" class="input">
+                <span class="bar"></span>
+                <label class="label">
+                    <span class="label-char" style="--index: 0">X</span>
+                    <span class="label-char" style="--index: 1">C</span>
+                </label>
+            </div>
+
+            <button id="button">RELOAD
+                <div class="star-1">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-2">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-3">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-4">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-5">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="star-6">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                            <path
+                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                class="fil0"></path>
+                        </g>
+                    </svg>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <span id="phase-difference">Phase Difference is of</span><span id="answer"></span>
+    <div id="graphs">
+        <div id="graph" class="diagrams">
+            <div id="current" class="value_boxes">
+                <div class="value current_value current_value1"></div>
+                <div class="value current_value current_value2"></div>
+                <div class="value current_value current_value3"></div>
+                <div class="value current_value current_value4"></div>
+                <div class="value current_value current_value5"></div>
+                <div class="value current_value current_value6"></div>
+                <div class="value current_value current_value7"></div>
+                <div class="value current_value current_value8"></div>
+                <div class="value current_value current_value9"></div>
+                <div class="value current_value current_value10"></div>
+                <div class="value current_value current_value11"></div>
+                <div class="value current_value current_value12"></div>
+                <div class="value current_value current_value13"></div>
+                <div class="value current_value current_value14"></div>
+                <div class="value current_value current_value15"></div>
+                <div class="value current_value current_value16"></div>
+                <div class="value current_value current_value17"></div>
+                <div class="value current_value current_value18"></div>
+                <div class="value current_value current_value19"></div>
+                <div class="value current_value current_value20"></div>
+                <div class="value current_value current_value21"></div>
+                <div class="value current_value current_value22"></div>
+            </div>
+            <div id="voltage" class="value_boxes">
+                <div class="value voltage_value voltage_value1"></div>
+                <div class="value voltage_value voltage_value2"></div>
+                <div class="value voltage_value voltage_value3"></div>
+                <div class="value voltage_value voltage_value4"></div>
+                <div class="value voltage_value voltage_value5"></div>
+                <div class="value voltage_value voltage_value6"></div>
+                <div class="value voltage_value voltage_value7"></div>
+                <div class="value voltage_value voltage_value8"></div>
+                <div class="value voltage_value voltage_value9"></div>
+                <div class="value voltage_value voltage_value10"></div>
+                <div class="value voltage_value voltage_value11"></div>
+                <div class="value voltage_value voltage_value12"></div>
+                <div class="value voltage_value voltage_value13"></div>
+                <div class="value voltage_value voltage_value14"></div>
+                <div class="value voltage_value voltage_value15"></div>
+                <div class="value voltage_value voltage_value16"></div>
+                <div class="value voltage_value voltage_value17"></div>
+                <div class="value voltage_value voltage_value18"></div>
+                <div class="value voltage_value voltage_value19"></div>
+                <div class="value voltage_value voltage_value20"></div>
+                <div class="value voltage_value voltage_value21"></div>
+                <div class="value voltage_value voltage_value22"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="file.js"></script>
+
+</html>
