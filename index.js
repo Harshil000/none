@@ -15,9 +15,9 @@ mongoose.connect(DB).then(() => {
 })
 
 let schem = new mongoose.Schema({
-    Resistance_R: string,
-    Inductive_reactance_XL: string,
-    Capacitive_reactance_XC: string 
+    Resistance_R: String,
+    Inductive_reactance_XL: String,
+    Capacitive_reactance_XC: String 
 })
 
 let collection = mongoose.model('info', schem)
